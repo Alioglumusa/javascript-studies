@@ -6,14 +6,17 @@
 // Evet ise message değişkenini "uzun" dizesine ayarlayın.
 // Aksi takdirde (else) message değişkenini "kısa" olarak ayarlayın
 
-
 const firstWord = "peony";
 const secondWord = "daffodil";
-let message = "kisa";
+let message = "";
 
 if(firstWord === secondWord) {
-    console.log(`Ayni`)
+    message = "Ayni"
 } else if(firstWord.length > secondWord.length){
-    console.log(`uzun`)
-} else(console.log(`${message}`))
+    message = "Uzun"
+} else{
+    message = "Kisa"
+}
+
+console.log(message);
 

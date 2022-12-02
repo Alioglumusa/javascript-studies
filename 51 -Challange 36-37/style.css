@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.images {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.images img.parallel {
+  width: 40rem;
+  margin: 2rem;
+  border: 3rem solid white;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}

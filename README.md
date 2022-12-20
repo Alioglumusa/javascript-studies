@@ -1,2 +1,2 @@
 # javascript
-JS
+JavaScript çalışmaları
